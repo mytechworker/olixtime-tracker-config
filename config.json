@@ -1,0 +1,1 @@
+{"apiBaseUrl": "https://olixlab-tracker-api.vercel.app/api", "minAppVersion": "1.0.0", "updatedAt": "2026-04-06T12:00:00Z", "notes": "Update this file when the Vercel deployment URL changes. All Electron app instances will pick up the new URL on their next startup."}
