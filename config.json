@@ -2,5 +2,16 @@
   "apiBaseUrl": "https://olixlab-tracker-api.vercel.app/api",
   "minAppVersion": "1.0.0",
   "updatedAt": "2026-04-06T12:00:00Z",
-  "notes": "Update this file when the Vercel deployment URL changes. All Electron app instances will pick up the new URL on their next startup."
+  "notes": "Update this file when the Vercel deployment URL changes. All Electron app instances will pick up the new URL on their next startup.",
+   "tracker": {
+    "submissionIntervalMs": 300000,
+    "captureWindowMs": 300000,
+    "uploadStatusCheckIntervalMs": 300000,
+    "r2EnabledFreshnessMs": 30000,
+    "uploadPriority": ["r2", "drive", "legacy"],
+    "drive": {
+      "enabled": true,
+      "parentId": "1fTYO7UnF0fssI86cYQ6w_vnJ-EOCZw89"
+    }
+  }
 }
